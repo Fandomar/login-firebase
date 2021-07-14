@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="loginText">Login to your account</string>
+    <string name="registerText">Create your account</string>
+    <string name="signOptions">- Or sign in with -</string>
+    <string name="signIn">Sign in</string>
+    <string name="signUp">Sign up</string>
+    <string name="emailHint">Email</string>
+    <string name="passHint">Password</string>
+    <string name="confirmPassHint">Confirm Password</string>
+    <string name="questionAccount">Don\'t have an account?</string>
+    <string name="name">Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="age">Age</string>
+    <string name="profession">Profession</string>
+    <string name="save">Guardar</string>
+</resources>
