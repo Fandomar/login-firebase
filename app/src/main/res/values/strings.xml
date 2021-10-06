@@ -1,17 +1,21 @@
 <resources>
     <string name="app_name">Login</string>
-    <string name="loginText">Login to your account</string>
-    <string name="registerText">Create your account</string>
-    <string name="signOptions">- Or sign in with -</string>
-    <string name="signIn">Sign in</string>
-    <string name="signUp">Sign up</string>
+    <string name="titleLogin">Iniciar Sesión</string>
+    <string name="titleRegister">Registro</string>
+    <string name="titleHome">Inicio</string>
+    <string name="titleProfile">Perfil</string>
+    <string name="loginText">Inicia sesión en tu cuenta</string>
+    <string name="registerText">Crear cuenta</string>
+    <string name="signOptions">- O inicia sesión con -</string>
+    <string name="signIn">Acceder</string>
+    <string name="signUp">Registrarse</string>
     <string name="emailHint">Email</string>
-    <string name="passHint">Password</string>
-    <string name="confirmPassHint">Confirm Password</string>
-    <string name="questionAccount">Don\'t have an account?</string>
-    <string name="name">Name</string>
-    <string name="lastName">Last Name</string>
-    <string name="age">Age</string>
-    <string name="profession">Profession</string>
+    <string name="passHint">Contraseña</string>
+    <string name="confirmPassHint">Confirmar contraseña</string>
+    <string name="questionAccount">¿No tienes cuenta?</string>
+    <string name="name">Nombre</string>
+    <string name="lastName">Apellidos</string>
+    <string name="age">Edad</string>
+    <string name="profession">Profesión</string>
     <string name="save">Guardar</string>
 </resources>

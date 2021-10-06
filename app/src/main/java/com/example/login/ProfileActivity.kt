@@ -36,6 +36,7 @@ class ProfileActivity : AppCompatActivity() {
 
         initGoogle()
         initViews()
+        setSectionTitle()
     }
 
     private fun initGoogle() {
@@ -121,6 +122,10 @@ class ProfileActivity : AppCompatActivity() {
 
     private fun isNotEmpty(): Boolean {
         return !binding.etName.text.isNullOrEmpty() || !binding.etLastName.text.isNullOrEmpty() || !binding.etAge.text.isNullOrEmpty() || !binding.etProfession.text.isNullOrEmpty()
+    }
+
+    private fun setSectionTitle() {
+        title = getString(R.string.titleProfile)
     }
 
     private fun backToHome() {

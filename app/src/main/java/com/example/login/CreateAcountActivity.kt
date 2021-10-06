@@ -31,6 +31,7 @@ class CreateAcountActivity : AppCompatActivity() {
 
         initViews()
         initGoogle()
+        setSectionTitle()
     }
 
     private fun initGoogle() {
@@ -92,6 +93,10 @@ class CreateAcountActivity : AppCompatActivity() {
                     changeActivity()
                 }
             }
+    }
+
+    private fun setSectionTitle() {
+        title = getString(R.string.titleRegister)
     }
 
     private fun changeActivity() {

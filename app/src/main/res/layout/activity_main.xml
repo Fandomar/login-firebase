@@ -83,7 +83,7 @@
             android:background="@color/transparent"
             android:text="@string/signUp"
             android:textAllCaps="false"
-            android:textColor="@color/black"
+            android:textColor="@color/link"
             android:textSize="12sp" />
     </LinearLayout>
 

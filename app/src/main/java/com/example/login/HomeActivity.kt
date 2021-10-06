@@ -38,6 +38,7 @@ class HomeActivity : AppCompatActivity() {
 
         initGoogle()
         initViews()
+        setSectionTitle()
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -133,6 +134,10 @@ class HomeActivity : AppCompatActivity() {
             if (user?.nombre.isNullOrEmpty()) "Full Name: - " else " Full Name: ${user?.nombre} ${user?.apellidos}"
         binding.tvAge.text = if (user?.edad == 0) "Age: - " else "Age: ${user?.edad.toString()}"
         binding.tvProfession.text = if (user?.profesion.isNullOrEmpty()) "Profession: - " else "Profession: ${user?.profesion}"
+    }
+
+    private fun setSectionTitle() {
+        title = getString(R.string.titleHome)
     }
 
     private fun goToProfile() {

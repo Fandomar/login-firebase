@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
 
         initGoogle()
         initViews()
+        setSectionTitle()
     }
 
     override fun onStart() {
@@ -152,6 +153,10 @@ class MainActivity : AppCompatActivity() {
             }
     }
 
+    private fun setSectionTitle() {
+        title = getString(R.string.titleLogin)
+    }
+
     private fun goToHome() {
         val intent = Intent(this, HomeActivity::class.java)
         finish()
@@ -160,7 +165,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun goToRegister() {
         val intent = Intent(this, CreateAcountActivity::class.java)
-        finish()
         startActivity(intent)
     }
 
